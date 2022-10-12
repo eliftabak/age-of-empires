@@ -2,7 +2,7 @@
 
 This project lists Units in Age of Empires. Allows user to filter the units by age and cost of wood, food or gold. 
 
-Constracted in 3 pages :
+Constructed into 3 pages :
 * Home
 * Units List
 * Unit Detail
@@ -39,14 +39,14 @@ Preview :
 
 ### Unit Detail
 
-This is a page you can learn more about a unit. See more attributes and evaluate!
+This page lists more details about the unit to see and evaluate its attributes.
 
 Preview :
 
 ![Age-of-Empires (1)](https://user-images.githubusercontent.com/58824027/195452230-39cb382c-ff7f-4e2d-8369-08832b0650da.png)
 
 
-## How run locale
+## How to run locale
 
 After downloading the repository, you can run `npm intall` then `npm start` in the terminal.
 
