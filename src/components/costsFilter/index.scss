@@ -1,0 +1,11 @@
+.costsFilter {
+  @apply flex gap-x-5;
+
+  &__form {
+    @apply w-24;
+  }
+
+  &__slider, h1 {
+    @apply w-1/3;
+  }
+}

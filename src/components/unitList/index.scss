@@ -1,0 +1,52 @@
+.unitList {
+  @apply font-sans text-black;
+
+  &__header {
+    h1 {
+      @apply text-3xl pb-4 font-bold;
+    }
+  }
+
+  &__controlPanel, 
+  &__header {
+    @apply mx-8 mt-8 mb-2;
+  }
+
+  &__age {
+    @apply mt-8;
+  }
+  
+  &__table {
+    @apply w-auto #{!important};
+
+    &-container {
+      @apply border-x border-b border-slate-600 px-6 pb-6;
+
+      table {
+        tr {
+          td {
+            @apply w-1/4;
+          }
+        }
+      }
+    }
+
+    &-head {
+      @apply bg-slate-700;
+      
+      tr {
+        th {
+          @apply text-white;
+
+          &:hover {
+            @apply text-amber-400;
+          }
+        }
+      }
+    }
+  }
+
+  &__costs {
+    @apply border-x border-slate-600 pt-8 px-6 pb-6;
+  }
+}

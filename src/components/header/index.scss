@@ -1,0 +1,23 @@
+.header {
+  @apply bg-slate-600 flex py-3 relative flex-row justify-center h-[4.5rem];
+
+  &__logo {
+    @apply absolute;
+  
+    img {
+      @apply max-h-full h-12;
+    }
+  }
+  
+  &__navLinks {
+    @apply text-amber-400 self-center px-2 ml-auto text-lg;
+  
+    &-item {
+      @apply px-4;
+
+      &:hover {
+        @apply text-amber-200;
+      }
+    }
+  }
+}
