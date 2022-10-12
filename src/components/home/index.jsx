@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='home__bannerContainer'>
-        <img src={ageOfEmpiresBanner} alt="age-of-empires-banner"/>
+        <img src={ageOfEmpiresBanner} alt='age-of-empires-banner'/>
       </div>
     </div>
   );
