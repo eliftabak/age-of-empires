@@ -3,7 +3,7 @@
     @apply overflow-hidden;
 
     img {
-      @apply w-full;
+      @apply w-full object-contain;
     }
   }
 }

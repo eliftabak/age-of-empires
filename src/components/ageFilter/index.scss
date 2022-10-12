@@ -1,0 +1,23 @@
+.ageFilter {
+  &.nav-tabs {
+    @apply border-slate-600 rounded-b-sm pl-11;
+
+    .nav-item {
+      @apply  border-slate-600 rounded-t ml-2;
+      
+      button {
+        &:hover {
+          @apply text-amber-400 border-amber-400;
+        }
+      }
+    }
+
+    .nav-link {
+      @apply text-black border-b-0;
+
+      &.active {
+        @apply text-amber-400 border-b-0 border-slate-600;
+      }
+    }
+  }
+}
