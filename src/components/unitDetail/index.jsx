@@ -51,7 +51,7 @@ return (
               Min. Required Age
             </TableCell>
             <TableCell>
-              {unit.age ? unit.age: 'N/A'}
+              {unit.age ? unit.age : 'N/A'}
             </TableCell>
           </TableRow>
           <TableRow>
@@ -67,7 +67,7 @@ return (
               Wood
             </TableCell>
             <TableCell>
-              {unitCost.Wood ? unitCost.Wool : 'N/A'}
+              {unitCost.Wood ? unitCost.Wood : 'N/A'}
             </TableCell>
           </TableRow>
           <TableRow>
